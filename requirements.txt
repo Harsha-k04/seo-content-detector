@@ -1,0 +1,25 @@
+# Core Libraries
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# Streamlit App Framework
+streamlit==1.38.0
+
+# NLP and Embeddings
+sentence-transformers==2.2.2
+transformers==4.37.2
+tokenizers>=0.22,<0.24
+
+# Text & Parsing Utilities
+textstat==0.7.4
+beautifulsoup4==4.12.3
+requests==2.32.3
+
+# Optional for safety (prevents SSL and encoding errors)
+urllib3==2.2.2
+certifi==2024.6.2
+
+# Compatibility
+tqdm==4.66.5
