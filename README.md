@@ -169,6 +169,8 @@ Interactive dashboard with:
 > Tuned **Random Forest Classifier** trained on 81 web articles using hybrid textual + embedding features.
 
 ---
+🖥️ **Live Demo:** [Click here to try it out on Streamlit Cloud](https://seo-content-detector-jwprwxvqsz9bwsamtpdefb.streamlit.app/)
+
 
 ## 🧑‍💻 Developed by
 
