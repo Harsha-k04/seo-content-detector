@@ -1,16 +1,16 @@
 # Core Libraries
 pandas==2.2.2
 numpy==1.26.4
-scikit-learn==1.5.1
+scikit-learn==1.5.2
 joblib==1.4.2
 
 # Streamlit App Framework
-streamlit==1.38.0
+streamlit==1.37.0
 
 # NLP and Embeddings
 sentence-transformers==2.2.2
-transformers==4.37.2
-tokenizers>=0.22,<0.24
+transformers==4.36.2
+tokenizers==0.15.2
 
 # Text & Parsing Utilities
 textstat==0.7.4
