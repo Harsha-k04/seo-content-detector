@@ -1,3 +1,8 @@
+# ===============================================
+# 🚀 SEO Content Quality & Duplicate Detector
+# Optimized Requirements for Streamlit Cloud
+# ===============================================
+
 # Core Libraries
 pandas==2.2.2
 numpy==1.26.4
@@ -7,10 +12,13 @@ joblib==1.4.2
 # Streamlit App Framework
 streamlit==1.37.0
 
-# NLP and Embeddings
+# NLP and Embeddings (lighter + faster)
 sentence-transformers==2.2.2
 transformers==4.36.2
 tokenizers==0.15.2
+
+# Optional optimization: use a smaller model in scorer.py
+# SentenceTransformer('paraphrase-MiniLM-L3-v2')  <-- faster alternative
 
 # Text & Parsing Utilities
 textstat==0.7.4
@@ -21,5 +29,12 @@ requests==2.32.3
 urllib3==2.2.2
 certifi==2024.6.2
 
-# Compatibility
+# Progress bars and misc utilities
 tqdm==4.66.5
+
+# ===============================================
+# ⚡ Deployment Notes
+# - All dependencies pinned for reproducible builds
+# - Compatible with Python 3.9–3.11 on Streamlit Cloud
+# - Recommended: Clear cache & redeploy after update
+# ===============================================
